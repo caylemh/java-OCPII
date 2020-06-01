@@ -1,3 +1,5 @@
+package ch2_JavaSyntaxClassReview;
+
 public class OCP_I_Review {
     public static void main(String[] args) {
         //Normal ForLoop
@@ -36,9 +38,9 @@ public class OCP_I_Review {
         emp.setName("Jane Smith");
         emp.setSsn ("012-34-5678");
         emp.setSalary(120_345.27);
-        System.out.println ("Employee id:         " + emp.getEmpId());
-        System.out.println ("Employee name:       " + emp.getName());
-        System.out.println ("Employee Soc Sec #:  " + emp.getSsn());
-        System.out.println ("Employee salary:     " + emp.getSalary());
+        System.out.println ("ch2_JavaSyntaxClassReview.Employee id:         " + emp.getEmpId());
+        System.out.println ("ch2_JavaSyntaxClassReview.Employee name:       " + emp.getName());
+        System.out.println ("ch2_JavaSyntaxClassReview.Employee Soc Sec #:  " + emp.getSsn());
+        System.out.println ("ch2_JavaSyntaxClassReview.Employee salary:     " + emp.getSalary());
     }
 }

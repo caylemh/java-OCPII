@@ -1,3 +1,5 @@
+package ch2_JavaSyntaxClassReview;
+
 public class Employee {
     // Classes and Methods
     public int empId;

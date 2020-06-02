@@ -11,3 +11,4 @@ A place to track my Java Advanced Course knowledge and Exercise files.
     - Overriding the 'equals' method.
     - Overriding the Object hashcode.
     - Varargs notation.
+    - Casting Object References.

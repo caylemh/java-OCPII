@@ -29,4 +29,9 @@ public class Employee {
     public double calcBonus() {
         return this.getSalary() * GoodBonus.calcBonus(this);
     }
+
+    public String toString() {
+        return "\nEmployee ID: " + empId + "\n" +
+                "Employee Name: " + name;
+    }
 }

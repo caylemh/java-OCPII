@@ -34,4 +34,19 @@ public class Employee {
         return "\nEmployee ID: " + empId + "\n" +
                 "Employee Name: " + name;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        boolean result = false;
+        if((obj != null) && (obj instanceof Employee)) {
+            Employee e = (Employee)obj;
+            if((e.empId == this.empId) &&
+                    (e.name.equals(this.name)) &&
+                    (e.ssn.equals(this.ssn)) &&
+                    (e.salary == this.salary)) {
+                result = true;
+            }
+        }
+        return result;
+    }
 }

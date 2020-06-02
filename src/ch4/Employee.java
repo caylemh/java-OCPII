@@ -1,5 +1,7 @@
 package ch4;
 
+import java.util.Objects;
+
 public class Employee {
     private int empId;
     private String name;
@@ -48,5 +50,17 @@ public class Employee {
             }
         }
         return result;
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 7;
+        hash = 83 * hash + this.empId;
+        hash = 83 * hash + Objects.hashCode(this.name);
+        hash = 83 * hash + Objects.hashCode(this.ssn);
+        hash = 83 * hash + (int)
+                (Double.doubleToLongBits(this.salary) ^
+                        (Double.doubleToLongBits(this.salary) >>> 32));
+        return hash;
     }
 }

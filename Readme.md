@@ -6,3 +6,8 @@ A place to track my Java Advanced Course knowledge and Exercise files.
 ### - Chapter 3: Encapsulation & Subclassing.
     - Exercises
 ### - Chapter 4: Overriding Methods, Polymorphism, & Static Classes.
+    - Access Control.
+    - Overriding the 'toString' Method.
+    - Overriding the 'equals' method.
+    - Overriding the Object hashcode.
+    - Varargs notation.

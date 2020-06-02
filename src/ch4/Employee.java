@@ -16,12 +16,12 @@ public class Employee {
     }
 
     public String getDetails() {
-        return "ID: " + empId + " Name: " + name;
+        return "ID: " + empId + "\n\tName: " + name;
     }
 
     public String getAllDetails() {
-        return "ID: " + empId + " Name: " + name
-                + " SSN: " + ssn + " Salary: " + salary;
+        return "\nID: " + empId + "\n\tName: " + name
+                + "\n\tSSN: " + ssn + "\n\tSalary: " + salary;
     }
 
     public double getSalary(){

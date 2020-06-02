@@ -19,7 +19,7 @@ public class Manager extends Employee {
     @Override
     public String getDetails() {
         return super.getDetails () +
-                " Dept: " + deptName;
+                "\n\tDept: " + deptName;
     }
 
     @Override

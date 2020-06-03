@@ -1,7 +1,7 @@
 package ch6_ProductSalesInterface;
 
 public interface SalesCalcs {
-//    public static final String reportTitle="\n==Static List Report==";
+    public static final String reportTitle="\n==Static List Report==";
 
     public String getName();
     public double calcSalesPrice();
@@ -9,7 +9,7 @@ public interface SalesCalcs {
     public double calcProfit();
 
     public static void printItemArray(SalesCalcs[] items){
-//        System.out.println(reportTitle);
+        System.out.println(reportTitle);
         for(SalesCalcs item:items){
             System.out.println("--" + item.getName() + " Report--");
             System.out.println("\tSales Price: " + item.calcSalesPrice());

@@ -12,3 +12,7 @@ A place to track my Java Advanced Course knowledge and Exercise files.
     - Overriding the Object hashcode.
     - Varargs notation.
     - Casting Object References.
+    - Static Methods.
+    - Implementing & Calling Static Methods.
+    - Using Static Methods.
+    - Immutable Classes.

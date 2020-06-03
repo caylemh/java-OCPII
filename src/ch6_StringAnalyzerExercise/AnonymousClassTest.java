@@ -1,4 +1,4 @@
-package ch_StringAnalyzerExercise;
+package ch6_StringAnalyzerExercise;
 
 public class AnonymousClassTest {
     public static void searchArr(String[] strList, String searchStr, StringAnalyzer analyzer){

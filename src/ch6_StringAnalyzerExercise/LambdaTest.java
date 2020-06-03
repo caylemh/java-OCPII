@@ -1,6 +1,6 @@
-package ch_StringAnalyzerExercise;
+package ch6_StringAnalyzerExercise;
 
-public class EncapsulateTest {
+public class LambdaTest {
     public static void searchArr(String[] strList, String searchStr, StringAnalyzer analyzer){
         for(String currentStr:strList){
             if (analyzer.analyze(currentStr, searchStr)){
@@ -15,10 +15,9 @@ public class EncapsulateTest {
         String searchStr = "to";
         System.out.println("Searching for: " + searchStr);
 
-        // Call concrete class that implments StringAnalyzer
-        ContainsAnalyzer contains = new ContainsAnalyzer();
-
+        // Using a Lambda Expression
         System.out.println("===Contains===");
+        StringAnalyzer contains = (t,s) -> t.contains(s); // Assigning Lambda Expression to a variable
         searchArr(strList01, searchStr, contains);
     }
 }

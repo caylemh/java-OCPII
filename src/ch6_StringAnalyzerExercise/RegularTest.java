@@ -1,4 +1,4 @@
-package ch_StringAnalyzerExercise;
+package ch6_StringAnalyzerExercise;
 
 public class RegularTest {
     public static void main(String[] args) {

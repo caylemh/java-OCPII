@@ -23,3 +23,9 @@ A place to track my Java Advanced Course knowledge and Exercise files.
     - Using Constant fields in Interfaces.
     - Extending Interfaces.
     - Implementing & Extending.
+    - String Analyzer Exercise:
+        * Using a Regular Class Test.
+        * Using an Interface.
+        * Encapsulating the ForLoop.
+        * Using an Anonymous Class.
+        * Using a Lambda Expression.

@@ -18,3 +18,8 @@ A place to track my Java Advanced Course knowledge and Exercise files.
     - Immutable Classes.
 ### - Chapter 5: Abstract & Nested Classes.
 ### - Chapter 6: Interfaces & Lambda Expressions.
+    - Creating & Using an Interface.
+    - Default & Static Methods in Interfaces.
+    - Using Constant fields in Interfaces.
+    - Extending Interfaces.
+    - Implementing & Extending.

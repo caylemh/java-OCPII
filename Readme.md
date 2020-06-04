@@ -29,3 +29,4 @@ A place to track my Java Advanced Course knowledge and Exercise files.
         * Encapsulating the ForLoop.
         * Using an Anonymous Class.
         * Using a Lambda Expression.
+### - Chapter 7: Generics & Collections.

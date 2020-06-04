@@ -30,3 +30,10 @@ A place to track my Java Advanced Course knowledge and Exercise files.
         * Using an Anonymous Class.
         * Using a Lambda Expression.
 ### - Chapter 7: Generics & Collections.
+### - Chapter 8: Collections, Streams & Filters.
+### - Chapter 9: Lambda Built-In Functional Interfaces.
+### - Chapter 10: Lambda Operations.
+    - Employee Search Examples.
+### - Chapter 11: Exceptions & Assertions.
+    - Assertion Examples.
+    - Exception Examples.
